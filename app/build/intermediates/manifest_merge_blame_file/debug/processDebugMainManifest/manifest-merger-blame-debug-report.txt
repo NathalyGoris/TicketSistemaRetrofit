@@ -1,0 +1,214 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ucne.edu.ticketsistemaretrofit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.REORDER_TASKS" />
+12-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
+12-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
+13
+14    <permission
+14-->[androidx.core:core:1.13.1] C:\Users\natha\.gradle\caches\transforms-4\99b005bb2f61d575efc37231bb2484d8\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+15        android:name="com.ucne.edu.ticketsistemaretrofit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.1] C:\Users\natha\.gradle\caches\transforms-4\99b005bb2f61d575efc37231bb2484d8\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.1] C:\Users\natha\.gradle\caches\transforms-4\99b005bb2f61d575efc37231bb2484d8\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.ucne.edu.ticketsistemaretrofit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.1] C:\Users\natha\.gradle\caches\transforms-4\99b005bb2f61d575efc37231bb2484d8\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.1] C:\Users\natha\.gradle\caches\transforms-4\99b005bb2f61d575efc37231bb2484d8\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+19
+20    <queries>
+20-->[androidx.test:runner:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\9bd23e57a9ede64b72c71bbfb4afb08f\transformed\runner-1.6.1\AndroidManifest.xml:24:5-28:15
+21        <package android:name="androidx.test.orchestrator" />
+21-->[androidx.test:runner:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\9bd23e57a9ede64b72c71bbfb4afb08f\transformed\runner-1.6.1\AndroidManifest.xml:25:9-62
+21-->[androidx.test:runner:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\9bd23e57a9ede64b72c71bbfb4afb08f\transformed\runner-1.6.1\AndroidManifest.xml:25:18-59
+22        <package android:name="androidx.test.services" />
+22-->[androidx.test:runner:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\9bd23e57a9ede64b72c71bbfb4afb08f\transformed\runner-1.6.1\AndroidManifest.xml:26:9-58
+22-->[androidx.test:runner:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\9bd23e57a9ede64b72c71bbfb4afb08f\transformed\runner-1.6.1\AndroidManifest.xml:26:18-55
+23        <package android:name="com.google.android.apps.common.testing.services" />
+23-->[androidx.test:runner:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\9bd23e57a9ede64b72c71bbfb4afb08f\transformed\runner-1.6.1\AndroidManifest.xml:27:9-83
+23-->[androidx.test:runner:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\9bd23e57a9ede64b72c71bbfb4afb08f\transformed\runner-1.6.1\AndroidManifest.xml:27:18-80
+24    </queries>
+25
+26    <application
+26-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:7:5-28:19
+27        android:name="com.ucne.edu.ticketsistemaretrofit.SistemaTicketApp"
+27-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:8:9-41
+28        android:allowBackup="true"
+28-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:9:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.1] C:\Users\natha\.gradle\caches\transforms-4\99b005bb2f61d575efc37231bb2484d8\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:10:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:11:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:12:9-43
+35        android:label="@string/app_name"
+35-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:13:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:14:9-54
+37        android:supportsRtl="true"
+37-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:15:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.TicketSistemaRetrofit" >
+39-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:16:9-59
+40        <activity
+40-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:18:9-27:20
+41            android:name="com.ucne.edu.ticketsistemaretrofit.MainActivity"
+41-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:19:13-41
+42            android:exported="true"
+42-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:20:13-36
+43            android:theme="@style/Theme.TicketSistemaRetrofit" >
+43-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:21:13-63
+44            <intent-filter>
+44-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:22:13-26:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:23:17-69
+45-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:23:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:25:17-77
+47-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:25:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
+51            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+51-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
+52            android:exported="true"
+52-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
+53            android:theme="@style/WhiteBackgroundTheme" >
+53-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
+54            <intent-filter android:priority="-100" >
+54-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+54-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:25:17-77
+55-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:25:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
+59            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+59-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
+60            android:exported="true"
+60-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
+61            android:theme="@style/WhiteBackgroundTheme" >
+61-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
+62            <intent-filter android:priority="-100" >
+62-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+62-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:25:17-77
+63-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:25:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
+67            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+67-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
+68            android:exported="true"
+68-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
+69            android:theme="@style/WhiteBackgroundDialogTheme" >
+69-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
+70            <intent-filter android:priority="-100" >
+70-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+70-->[androidx.test:core:1.6.1] C:\Users\natha\.gradle\caches\transforms-4\c20e88ebecc975105fd06b8efdc71a08\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:25:17-77
+71-->C:\TickertSistemas\app\src\main\AndroidManifest.xml:25:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->[androidx.compose.ui:ui-test-manifest:1.7.0-rc01] C:\Users\natha\.gradle\caches\transforms-4\fb03e9ef844afa713ac1522de7981266\transformed\ui-test-manifest-1.7.0-rc01\AndroidManifest.xml:23:9-25:39
+75            android:name="androidx.activity.ComponentActivity"
+75-->[androidx.compose.ui:ui-test-manifest:1.7.0-rc01] C:\Users\natha\.gradle\caches\transforms-4\fb03e9ef844afa713ac1522de7981266\transformed\ui-test-manifest-1.7.0-rc01\AndroidManifest.xml:24:13-63
+76            android:exported="true" />
+76-->[androidx.compose.ui:ui-test-manifest:1.7.0-rc01] C:\Users\natha\.gradle\caches\transforms-4\fb03e9ef844afa713ac1522de7981266\transformed\ui-test-manifest-1.7.0-rc01\AndroidManifest.xml:25:13-36
+77        <activity
+77-->[androidx.compose.ui:ui-tooling-android:1.7.0-rc01] C:\Users\natha\.gradle\caches\transforms-4\2c817942ba7c0eafc7f3062e49f5e6bc\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+78            android:name="androidx.compose.ui.tooling.PreviewActivity"
+78-->[androidx.compose.ui:ui-tooling-android:1.7.0-rc01] C:\Users\natha\.gradle\caches\transforms-4\2c817942ba7c0eafc7f3062e49f5e6bc\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+79            android:exported="true" />
+79-->[androidx.compose.ui:ui-tooling-android:1.7.0-rc01] C:\Users\natha\.gradle\caches\transforms-4\2c817942ba7c0eafc7f3062e49f5e6bc\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\natha\.gradle\caches\transforms-4\3e891413c2664fc8490dbdc2397244ba\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\natha\.gradle\caches\transforms-4\3e891413c2664fc8490dbdc2397244ba\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+83            android:authorities="com.ucne.edu.ticketsistemaretrofit.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\natha\.gradle\caches\transforms-4\3e891413c2664fc8490dbdc2397244ba\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\natha\.gradle\caches\transforms-4\3e891413c2664fc8490dbdc2397244ba\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\natha\.gradle\caches\transforms-4\3e891413c2664fc8490dbdc2397244ba\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\natha\.gradle\caches\transforms-4\3e891413c2664fc8490dbdc2397244ba\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\natha\.gradle\caches\transforms-4\3e891413c2664fc8490dbdc2397244ba\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\natha\.gradle\caches\transforms-4\c64e545d4c1ae54ab0b3b5d57543cbba\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\natha\.gradle\caches\transforms-4\c64e545d4c1ae54ab0b3b5d57543cbba\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\natha\.gradle\caches\transforms-4\c64e545d4c1ae54ab0b3b5d57543cbba\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+93                android:value="androidx.startup" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+94        </provider>
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\natha\.gradle\caches\transforms-4\9f394f4f15fdf5b2827a0df1396ca3d5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>
